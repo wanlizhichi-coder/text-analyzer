@@ -34,4 +34,4 @@ More features will be added later.
 - File loading
 - Error handling
 
-Project status: learning Python engineering.
+Project status: building production-ready Python engineering skills.
