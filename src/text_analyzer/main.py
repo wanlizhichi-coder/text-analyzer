@@ -34,7 +34,9 @@ def main() -> None:
     except ValueError as exc:
         print(f"无法分析文本：{exc}")
         return
-
+        
+    preview = text[:30]
+    print(f"文本预览：{preview}")
     print(f"字符数：{stats.characters}")
     print(f"单词数：{stats.words}")
     print(f"非空行数：{stats.lines}")
