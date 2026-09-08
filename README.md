@@ -39,5 +39,3 @@ Project status: building production-ready skills for AI application engineering.
 Git practice completed.
 
 The project now uses a branch and pull request workflow.
-
-Temporary incorrect line.
