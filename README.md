@@ -33,3 +33,5 @@ More features will be added later.
 - Text statistics
 - File loading
 - Error handling
+
+Project status: learning Python engineering.
