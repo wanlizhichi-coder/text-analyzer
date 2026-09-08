@@ -23,3 +23,7 @@ Run the application with:
 
 ```bash
 python -m text_analyzer.main
+
+This project is used for learning Python engineering practices.
+
+More features will be added later.
