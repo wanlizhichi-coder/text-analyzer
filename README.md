@@ -16,3 +16,10 @@ Conda 环境：
 
 ```bash
 conda activate py310
+
+## Usage
+
+Run the application with:
+
+```bash
+python -m text_analyzer.main
