@@ -10,6 +10,7 @@ class TextStats:
     lines: int
     average_word_length: float
     longest_word: str
+    unique_words: int
 
 
 def analyze_text(text: str) -> TextStats:
@@ -28,9 +29,11 @@ def analyze_text(text: str) -> TextStats:
     if words:
         average_word_length = sum(len(word) for word in words) / len(words)
         longest_word = max(words, key=len)
+        unique_words = len(set(words))
     else:
         average_word_length = 0.0
         longest_word = ""
+        unique_words = 0
 
     return TextStats(
         characters=len(text),
@@ -38,4 +41,5 @@ def analyze_text(text: str) -> TextStats:
         lines=len(lines),
         average_word_length=average_word_length,
         longest_word=longest_word,
+        unique_words=unique_words
     )
