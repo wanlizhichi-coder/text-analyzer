@@ -43,6 +43,7 @@ def main() -> None:
     print(f"平均单词长度：{stats.average_word_length:.2f}")
     print(f"最长单词：{stats.longest_word}")
     print(f"不重复单词数：{stats.unique_words}")
+    print(f"非空白字符数：{stats.non_whitespace_characters}")
 
     logger.info("Application finished")
 
