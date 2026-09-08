@@ -34,4 +34,4 @@ More features will be added later.
 - File loading
 - Error handling
 
-Project status: preparing for AI application engineering.
+Project status: building production-ready skills for AI application engineering.
