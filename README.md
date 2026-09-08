@@ -34,4 +34,4 @@ More features will be added later.
 - File loading
 - Error handling
 
-Project status: learning Python engineering.
+Project status: preparing for AI application engineering.
