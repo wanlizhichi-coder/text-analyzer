@@ -1,0 +1,9 @@
+Metadata-Version: 2.4
+Name: text-analyzer
+Version: 0.1.0
+Summary: A small text analysis project for learning Python engineering.
+Requires-Python: >=3.10
+Requires-Dist: python-dotenv
+Provides-Extra: dev
+Requires-Dist: pytest>=8; extra == "dev"
+Requires-Dist: pytest-cov>=5; extra == "dev"

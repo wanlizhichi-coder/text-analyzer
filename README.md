@@ -39,3 +39,16 @@ Project status: building production-ready skills for AI application engineering.
 Git practice completed.
 
 The project now uses a branch and pull request workflow.
+
+
+## Installation
+```bash
+python -m pip install -e ".[dev]"
+
+## Run
+```bash
+python -m text_analyzer.main
+
+python -m pytest -v
+
+python -m pytest --cov=text_analyzer --cov-branch --cov-report=term-missing

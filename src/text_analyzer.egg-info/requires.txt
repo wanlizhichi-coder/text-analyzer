@@ -1,0 +1,5 @@
+python-dotenv
+
+[dev]
+pytest>=8
+pytest-cov>=5
